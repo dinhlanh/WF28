@@ -1,0 +1,6 @@
+1. git init // khởi tạo git
+2. git remote // Tạo remote đến cái kho
+3. git status // Kiểm tra trạng thái thay đổi
+4. git add . // Đối với đẩy tất cả, nếu với file . -> ten file
+5. git commit -m "nột bài Unit3"
+6. git push origin master
