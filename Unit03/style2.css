@@ -17,7 +17,7 @@
 .right{ width:150px; height:700px; float:right; background:white; padding-top:10px; }
 .right2{width: 150px; height: 100px; float: left; color: black; border: 0px;padding: 0px;}
 .right3{width: 150px; height: 180px; float: left; color: black}
-.right_duoi{ width:794px; height:40px; background:#696969;  font-size: 18px; float: left;}
+.right_duoi{ line-height: 40px; width:794px; height:40px; background:#696969;  font-size: 18px; float: left;}
 .top_duoi ul{ list-style:none}
 .top_duoi ul li{ display:inline; text-align:right;}
 .top_duoi ul li a{ display:inline; text-decoration:none; background:#696969; width: 100px; float:left; color:orange;}
