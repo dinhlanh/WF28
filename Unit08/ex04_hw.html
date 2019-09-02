@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EX04</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var M = parseInt(prompt("Mời nhập số M: "));
+		var N = parseInt(prompt("Mời nhập số N: "));
+		var K = parseInt(prompt("Mời nhập số K: "));
+
+		var tong = 0;
+		for(i = M+1;i<N;i++){
+			if(i % K == 0){
+				tong += i;
+			}
+		}
+		document.write("Tổng số chia hết cho " + K + " trong khoảng từ " + M + " đến " + N + " là: " + tong);
+	</script>
+</body>
+</html>

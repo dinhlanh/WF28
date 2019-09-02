@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EX07</title>
+</head>
+<body>
+	<script type="text/javascript">
+		do{
+			var a = prompt("Nhập vào số nguyên a");
+
+		}
+		while(a<=0||Number.isInteger(Number(a))==false||isNaN(a)==true);
+		for (var i = a; i > 0; i--) {
+			for (var j = i; j > 0; j--) {
+				document.write("*");
+			}
+			document.write("<br>");
+		}
+	</script>
+</body>
+</html>

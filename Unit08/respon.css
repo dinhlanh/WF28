@@ -1,0 +1,381 @@
+
+@media screen and (min-width: 321px) and (max-width: 768px){
+	html,body{
+		width: 100%;height: 100%;
+		margin: 0px 0px 0px 0px;
+	}
+	.total{
+		height: 5000px;
+		background-color: white;
+		width: 100%;
+	}
+	.banner{
+		width: 100%;height: 500px;
+	}
+	.bg{width: 100%;height: 500px}
+	.center{
+		width: 99%;
+		height: 930px;
+		text-align: center;
+	}
+	.center-1{
+		width: 100%;
+		height: 400px;
+		text-align: center;
+		margin: auto;
+	}
+	.center-2{
+		width: 100%;
+		height: 450px
+	}
+	.p3{margin: 30px 0px 0px 0px;}
+	.p4{
+		margin: auto;
+	}
+	.banner3{
+		width: 100%;
+		height: 1000px;
+	}
+	.bn3-p{
+		margin: 0px 0px 0px 0px
+	}
+	.div-top-1{
+		width: 100%;
+		height: 150px;
+	}
+	.div-top-2{
+		width: 100%;
+		height: 820px
+	}
+	.div-top-2-1{
+		width: 80%;
+		height: 250px;
+		margin: 0px 0px 20px 70px;
+	}
+	.div-dg{margin: auto;}
+	.div-dl{margin: auto;}
+	.div-top-2-2{
+		width: 80%;
+		height: 250px;
+		margin: 0px 0px 20px 70px;
+	}
+	.div-sp{margin: auto;}
+	.div-top-2-3{
+		width: 80%;
+		height: 250px;
+		margin: 0px 0px 20px 70px;
+	}
+	.banner4{
+		width: 100%;
+		height: 600px;
+	}
+	.banner4-1{
+		width: 100%;
+	}
+	.bn-div1{
+		width: 280px;
+		height: 230px;
+		margin: 30px 20px 10px 70px;
+	}
+	.bn-div2{
+		width: 280px;
+		height: 230px;
+		margin: 30px 20px 10px 20px;
+	}
+	.bn-div3{
+		width: 280px;
+		height: 230px;
+		margin: 30px 20px 10px 70px;
+	}
+	.bn-div4{
+		width: 280px;
+		height: 230px;
+		margin: 30px 20px 10px 20px;
+	}
+	.banner5{
+		width: 100%;
+
+	}
+	.banner5 ul{
+		width: 750px;
+		margin: auto;
+		text-align: center;
+	}
+	.banner5 ul li{
+		margin: 0px 0px 0px 40px;
+	}
+	.img-div{width: 100%;}
+	.banner6{
+		width: 100%;height:1500px;
+	}
+	.bocuc-1{
+		width: 100%;
+		margin: 0px 0px 0px 0px;
+	}
+	.bocuc-1-1{width: 50%;margin: 0px 0px 0px 210px}
+	.bocuc-1-2{width: 50%;margin: 0px 0px 0px 210px;}
+	.bocuc-2{
+		width: 100%;
+		margin: 0px 0px 0px 0px;
+	}
+	.bocuc-2-1{width: 50%;margin: 20px 0px 0px 210px}
+	.bocuc-2-2{width: 50%;margin: 0px 0px 0px 210px;}
+	.bocuc-3{
+		width: 100%;
+		margin: 0px 0px 0px 0px;
+	}
+	.bocuc-3-1{width: 50%;margin: 20px 0px 0px 210px}
+	.bocuc-3-2{width: 50%;margin: 0px 0px 0px 210px;}
+
+	.banner7{
+		width: 100%;
+		height: 1000px;
+	}
+	.banner7-trong{width: 100%;height: }
+	.banner7-trong-1{width: 100%;height: 70%;margin: 0px 0px 0px 0px;}
+	.banner7-trong-2{width: 100%;height: 70%;margin: 0px 0px 0px 0px;}
+	.banner7-trong-3{width: 100%;height: 70%;margin: 0px 0px 0px 0px;}
+	.banner7-trong-4{width: 100%;height: 70%;margin: 0px 0px 0px 0px;}
+	
+	.banner8{width: 100%;height: 550px}
+	.text{width: 550px;margin: 20px 0px 0px 100px;}
+	.text2{width: 550px;margin: 20px 0px 0px 100px;}
+
+	.banner9{width: 100%;height: 700px}
+
+}
+
+@media screen and (max-width: 320px){
+	html,body{
+		width: 100%;
+		height: 100%;
+		margin: 0px 0px 0px 0px;
+	}
+	.total{
+		width: 100%;
+		height: 100%;
+	}
+	.banner{
+		width: 100%;
+		height: 80%;
+	}
+	.bg{
+		width: 100%;
+		height: 100%;
+	}
+	.bg-span{margin: auto;}
+	.menu-bn{width: 100%;height: 100%;}
+	.menu-bn ul{display: none;}
+	.p1{
+		margin: 100px 0px 0px 0px;
+		font-size: 30px;
+	}
+	.p2{
+		margin: 0px 0px 0px 0px;
+	}
+	.center{
+		width: 100%;
+		height: 800px;
+	}
+	.center-1{
+		width: 100%;
+		height: 530px;
+		text-align: center;
+	}
+	.p3{margin: 40px 0px 0px 0px;}
+	.p4{margin: auto;}
+	.center-2{
+		width: 100%;
+		height: 350px;
+		margin: 0px 0px 0px 0px;
+	}
+	.ct-img{
+		margin: 0px 0px 0px 0px;
+		width: 100%;
+		height: 300px;
+	}
+	.banner3{
+		width: 100%;
+		height: 1200px;
+	}
+	.div-top-1{
+		width: 100%;
+		height: 220px;
+	}
+	.div-top-2{
+		width: 100%;
+		height: 750px;
+	}
+	.div-top-2-1{
+		width: 100%;
+		height: 300px;
+		margin: 0px 0px 20px 0px;
+	}
+	.div-top-2-2{
+		width: 100%;
+		height: 300px;
+		margin: 0px 0px 20px 0px;
+	}
+	.div-top-2-3{
+		width: 100%;
+		height: 300px;
+		margin: 0px 0px 0px 0px;
+	}
+	.banner4{
+		width: 100%;
+		height: 1100px;
+	}
+	.banner4-1{
+		width: 100%;
+		height: 1100px
+	}
+	.bn-div1{
+		width: 80%;
+		height: 232px;
+		margin: 10px 0px 20px 30px;
+	}
+	.bn-div2{
+		width: 80%;
+		height: 232px;
+		margin: 10px 0px 20px 30px;
+	}
+	.bn-div3{
+		width: 80%;
+		height: 232px;
+		margin: 10px 0px 20px 30px;
+	}
+	.bn-div4{
+		width: 80%;
+		height: 232px;
+		margin: 10px 0px 0px 30px;
+	}
+	.banner5{
+		width: 100%;
+		height: 1450px;
+	}
+	.banner5>ul{
+		width: 100%;
+	}
+	.banner5>ul>li{
+		width: 95px;
+		margin: 0px 5px 10px 10px
+	}
+	.div-bc{
+		width: 100%;
+		height: 1100px;
+	}
+	.div-bc-1{
+		width: 100%;
+		height: 250px;
+		margin: 0px 0px 40px 0px;
+	}
+	.div-bc-2{
+		width: 100%;
+		height: 250px;
+		margin: 0px 0px 40px 0px;
+	}
+	.div-bc-3{
+		width: 100%;
+		height: 250px;
+		margin: 0px 0px 40px 0px;
+	}
+	.div-bc-4{
+		width: 100%;
+		height: 250px;
+		margin: 0px 0px 40px 0px;
+	}
+	.img-div{
+		width: 100%;
+		height: 250px;
+	}
+	.banner6{
+		width: 100%;
+		height: 1650px;
+	}
+	.bocuc-1{
+		width: 320px;
+		height:480px;
+		margin: 0px 0px 0px 0px;
+	}
+	.bocuc-1-1{
+		width: 320px;
+		height: 210px;
+	}
+	.bocuc-1-2{
+		width: 320px;
+		height: 220px;
+	}
+	.bocuc-2{
+		width: 100%;
+		height:480px;
+		margin: 0px 0px 0px 0px;
+	}
+	.bocuc-2-1{
+		width: 320px;
+		height: 210px;
+	}
+	.bocuc-2-2{
+		width: 320px;
+		height: 220px;
+	}
+	.bocuc-3{
+		width: 100%;
+		height:480px;
+		margin: 0px 0px 0px 0px;
+	}
+	.bocuc-3-1{
+		width: 320px;
+		height: 210px;
+	}
+	.bocuc-3-2{
+		width: 320px;
+		height: 220px;
+	}
+	.bc2-img{width: 320px;}
+	.bc2-p{width: 320px;}
+	.banner7{
+		width: 100%;
+		height: 1100px;
+	}
+	.banner7-trong{
+		width: 100%;
+		height: 100%;
+	}
+	.banner7-trong-1{
+		width: 100%;
+		height: 230px;
+		margin: 0px 0px 0px 0px;
+	}
+	.banner7-trong-2{
+		width: 100%;
+		height: 230px;
+		margin: 0px 0px 0px 0px;
+	}
+	.banner7-trong-3{
+		width: 100%;
+		height: 230px;
+		margin: 0px 0px 0px 0px;
+	}
+	.banner7-trong-4{
+		width: 100%;
+		height: 230px;
+		margin: 0px 0px 0px 0px;
+	}
+	.banner8{
+		width: 100%;
+		height: 100%;
+	}
+	.text{
+		width: 300px;
+		margin: 20px 0px 0px 10px;
+	}
+	.text2{
+		width: 300px;
+		margin: 30px 0px 0px 10px; 
+	}
+	.banner9{
+		width: 100%;
+		height: 250px;
+	}
+
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EX05</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function tinh_tong()
+		{
+			var tong = 0;
+			var i;
+			var n = parseInt(prompt("Số cần tính: "));
+
+			if(n<=0){
+				alert("Bạn nhập số lớn hơn 0");
+			}
+			else{
+				for(i=1;i<=n;i++){
+					tong += (1/i);
+				}
+				document.write("Tổng số là : " + tong);
+			}
+
+		}
+		tinh_tong();
+	</script>
+
+	
+
+</script>
+</body>
+</html>

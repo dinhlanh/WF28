@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EX02</title>
+</head>
+<body>
+	<script>
+		function tinh_tong(a)
+		{
+			var tong = 0;
+			var index = 0;
+			do
+			{
+				if(index % 1 == 0){
+					tong += index;
+				}
+				index++;
+			}
+			while(index<=a);
+			return tong;
+		}
+		var a = parseInt(prompt("Nhập số cần kiểm tra: "));
+		document.write("Tổng từ 1 tới " + a + " là: " + tinh_tong(a));
+	</script>
+	
+</script>
+</body>
+</html>
