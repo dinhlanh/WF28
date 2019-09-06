@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Index01</title>
+</head>
+<body>
+	<p id="thep1">Thẻ p1</p>
+	<p class ="thep2">Thẻ p2</p>
+	<p class= "thep2">Thẻ p2</p>
+	<h3>DOM CSS</h3>
+	<img src="htpp://anhdep.jpg" alt="">
+	
+	<script type="text/javascript">
+		document.getElementById('thep1').style.color="red";
+
+		document.getElementsByClassName('thep2')[1].style.color="blue";
+		document.getElementsByTagName('p')[0].style.color="yellow";
+
+		var text = document.getElementById('thep1').innerHTML;
+		document.getElementsByClassName("thep2")[0].innerHTML = "Thay dổi thẻ p2 đầu tiên";
+
+		var src = document.getElementsByTagName('img')[0].src;
+		console.log(src);
+		document.getElementsByTagName('img')[0].src = 'htpp://google.com';
+
+		document.getElementsByTagName('h3')[0].style.color = 'red';
+		document.getElementsByTagName('h3')[0].style.fontSize = "50px";
+		var colorh3 = document.getElementsByTagName('h3')[0].style.color;
+		console.log(colorh3)
+
+
+	</script>
+</body>
+</html>

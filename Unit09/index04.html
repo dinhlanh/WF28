@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ex04</title>
+</head>
+<body>
+	<input onfocus="changeBackgroundFocus()" onblur="changeBackground()" type="text" name="">
+	<script type="text/javascript">
+		function changeBackground(){
+			document.getElementsByTagName('input')[0].style.background = 'orange';
+		}
+		function changeBackgroundFocus(){
+			document.getElementsByTagName('input')[0].style.background = 'blue';
+		}
+	</script>
+</body>
+</html>

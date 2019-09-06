@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ex03</title>
+	<style type="text/css">
+		.bang{
+			width: 300px;
+			height: 100px;
+			border:1px solid black;
+		}
+	</style>
+</head>
+<body>
+	<div class="bang">
+		<span>Cỡ chữ</span><br>
+		<br>
+		<button id="click1">Mặc định</button>
+		<button>Lớn</button>
+		<button>Nhỏ</button>
+
+	</div>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas esse eveniet aliquid iure animi, veniam reiciendis rem, nobis, quisquam fugiat commodi ab similique deserunt aspernatur quam deleniti ducimus exercitationem architecto odit inventore. Voluptate eaque dicta asperiores quis officia adipisci eum suscipit, id ex veniam iste laudantium, quisquam non obcaecati dolor!</p>
+	<script type="text/javascript">
+		var button = document.getElementsByTagName('button')[0];
+		button.addEventListener('click', function(){
+			var p = document.getElementsByTagName('p')[0];
+			var fontSize = p.style.fontSize;
+			if(fontSize=="16px"){
+				p.style.fontSize = "16px";
+			}else{
+				p.style.fontSize = "16px";
+			}
+		});
+
+		var button = document.getElementsByTagName('button')[1];
+		button.addEventListener('click', function(){
+			var p = document.getElementsByTagName('p')[0];
+			var fontSize = p.style.fontSize;
+			if(fontSize=="16px"){
+				p.style.fontSize = "40px";
+			}else{
+				p.style.fontSize = "16px";
+			}
+		});
+
+		var button = document.getElementsByTagName('button')[2];
+		button.addEventListener('click', function(){
+			var p = document.getElementsByTagName('p')[0];
+			var fontSize = p.style.fontSize;
+			if(fontSize=="16px"){
+				p.style.fontSize = "40%";
+			}else{
+				p.style.fontSize = "16px";
+			}
+		});
+
+		
+	</script>
+</body>
+</html>

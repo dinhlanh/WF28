@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Index02</title>
+</head>
+<body>
+	<p>Thay đổi màu click</p>
+	<button id="btn-click">Click</button>
+	<script type="text/javascript">
+		var button = document.getElementsByTagName('button')[0];
+		//Cách 1
+		button.addEventListener('click', function(){
+			var p = document.getElementsByTagName('p')[0];
+			var fontSize = p.style.fontSize;
+			if(fontSize=="16px"){
+				p.style.fontSize = "30px";
+			}else{
+				p.style.fontSize = "16px";
+			}
+		});
+		//Cách 2
+		button.addEventListener('click',click);
+			// function click(){
+			// 	var p = document.getElementsByTagName('p')[0];
+			// 	var color = p.style.color;
+			// 	if(color=='red'){
+			// 		p.style.color = 'black';
+			// 	}else{
+			// 		p.style.color = 'red';
+			// 	}
+			// }	
+		
+	</script>
+</body>
+</html>

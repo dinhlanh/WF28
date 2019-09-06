@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1 id="theh1">Đây là thẻ h1</h1>
+	<p>Đây là thẻ p</p>
+	<div>
+		<p>Thẻ p trong div</p>
+		<h1>thẻ h11 trong div</h1>
+	</div>
+	<script type="text/javascript">
+		document.getElementById('theh1').parentNode.style.background="yellow";
+		document.getElementById('theh1').parentNode.lastElementChild.style.background= "red";
+		document.getElementsByTagName('p')[0].nextElementSibling.style.color='pink';
+		document.getElementsByTagName('p')[0].previousElementSibling.style.color = "green";
+	</script>
+</body>
+</html>
