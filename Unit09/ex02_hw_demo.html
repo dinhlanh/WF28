@@ -29,7 +29,7 @@
 			<tr>
 				<td>Giới tính </td>
 				<td>
-					<input type="radio" name="gender"> Nam
+					<input type="radio" name="gender" checked="checked"> Nam
 					<input type="radio" name="gender"> Nữ
 
 				</td>
@@ -92,47 +92,45 @@
 			}else{
 				error_name.innerHTML="";
 			}
-			if(dem==0){
-				alert("Thành công");
-			}
+			
 		})
 		btn_submit.addEventListener('click', function(){
 			var email = document.frm.email.value;
 			var error_email = document.getElementById("error-email");
-			var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+			var reg = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 			var dem =0;
-			if(email==""){
-				error_email.innerHTML = "Vui lòng nhập email";
+			if(email!==''){
+				if (reg.test(email) == false) 
+				{
+					error_email.innerHTML = "Email chưa đúng";
+					dem++;	
+				}else{
+					error_email.innerHTML = "";
+				}
+			}else{
+				error_email.innerHTML="Vui lòng nhập Email";
 				dem++;
 			}
-			
-			if(dem==0){
-				alert("Thành công");
-			}
-			function kietraEmail(email){
-				var x = /[a-z]+@[a-z]+.[a-z]{2,}$/;
-				if(x.test(email)){
-					return true;
-				}else return false;
-			}
+
 		})
 		btn_submit.addEventListener('click', function(){
-			var phone = document.frm.phone.value;
-			var error_phone = document.getElementById("error-phone");
-			var dem =0;
-			if(phone==""){
-				error_phone.innerHTML = "Vui lòng nhập SĐT";
-				dem++;
-			}else if(phone.length<=8){
-				error_phone.innerHTML = "Tên lớn hơn 8 kí tự";
-				dem++;
+			var phone=document.frm.phone.value;
+			var vt = /((03|02|09|08|04)+([0-9]{8})\b)/g;
+			var error_phone=document.getElementById("error-phone");
+			if(phone!==''){
+				if (vt.test(phone) == false) 
+				{
+					error_phone.innerHTML = "Số điện thoại của bạn không đúng";
+					dem++;	
+				}else{
+					error_phone.innerHTML = "";
+				}
 			}else{
-				error_phone.innerHTML="";
+				error_phone.innerHTML="Vui lòng nhập SĐT";
+				
+				dem++;
 			}
 			
-			if(dem==0){
-				alert("Thành công");
-			}
 		})
 		btn_submit.addEventListener('click', function(){
 			var pass = document.frm.pass.value;
@@ -144,10 +142,6 @@
 			}else{
 				error_pass.innerHTML="";
 			}
-			
-			if(dem==0){
-				alert("Thành công");
-			}
 		})
 		btn_submit.addEventListener('click', function(){
 			var pass2 = document.frm.pass2.value;
@@ -158,12 +152,12 @@
 				dem++;
 			}else{
 				error_pass2.innerHTML="";
-			}
+			}	
 			
-			if(dem==0){
-				alert("Thành công");
-			}
 		})
+		if(dem==0){
+				alert("Thành công");
+		}
 	</script>
 </body>
 </html>
