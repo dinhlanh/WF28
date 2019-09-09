@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS</title>
+	<style>
+		.error{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<form name="frm">
+		<table>
+			<tr>
+				<td>Họ tên </td>
+				<td>
+					<input id="input-name" type="text" name="name"><span class="error" id="error-name"></span>
+
+				</td>
+			</tr>
+			<tr>
+				<td>Giới tính </td>
+				<td>
+					<input type="radio" name="gender"> Nam
+					<input type="radio" name="gender"> Nữ
+
+				</td>
+			</tr>
+			<tr>
+				<td>Email </td>
+				<td>
+					<input type="text" name="email"><span class="error" id="error-email"></span>
+				</td>
+			</tr>
+			<tr>
+				<td>Số điện thoại </td>
+				<td>
+					<input type="text" name="phone"><span class="error" id="error-phone"></span>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="button" id="btn-submit" value="Đăng ký"></td>
+			</tr>
+		</table>
+	</form>
+	<script type="text/javascript">
+		// document.getElementById('input-name').addEventListener('keyup', function(){
+		// 		var name = document.frm.name.value;
+		// 		var error_name = document.getElementById("error-name");
+		// 		var dem =0;
+		// 		if(name==""){
+		// 			error_name.innerHTML = "Vui lòng nhập họ tên đầy đủ";
+		// 			dem++;
+		// 		}else if(name.length<=8){
+		// 			error_name.innerHTML = "Tên lớn hơn 8 kí tự";
+		// 			dem++;
+		// 		}else{
+		// 			error_name.innerHTML="";
+		// 		}
+		// })
+		var btn_submit = document.getElementById("btn-submit");
+		btn_submit.addEventListener('click', function(){
+			var name = document.frm.name.value;
+			var error_name = document.getElementById("error-name");
+			var dem =0;
+			if(name==""){
+				error_name.innerHTML = "Vui lòng nhập họ tên đầy đủ";
+				dem++;
+			}else if(name.length<=8){
+				error_name.innerHTML = "Tên lớn hơn 8 kí tự";
+				dem++;
+			}else{
+				error_name.innerHTML="";
+			}
+
+			if(dem==0){
+				alert("Thành công");
+			}
+		})
+		btn_submit.addEventListener('click', function(){
+			var email = document.frm.email.value;
+			var error_email = document.getElementById("error-email");
+			var dem =0;
+			if(email==""){
+				error_email.innerHTML = "Vui lòng nhập email";
+				dem++;
+			}else if(email.length<=8){
+				error_email.innerHTML = "Tên lớn hơn 8 kí tự";
+				dem++;
+			}else{
+				error_email.innerHTML="";
+			}
+			
+			if(dem==0){
+				alert("Thành công");
+			}
+		})
+	</script>
+</body>
+</html>
