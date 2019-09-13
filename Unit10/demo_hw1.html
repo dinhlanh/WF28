@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EX01</title>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../Unit05/css/font-awesome.css">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.content{
+			width: 800px;
+			height: 600px;
+			background-color: black;
+			margin: auto;
+		}
+		.main {
+			width: 100%;
+			background-color: ;
+		}
+		.jquery-accordion{
+			margin: auto;
+			width: 40%;
+		}
+		.tab1 h3{
+			background: green url(image/icons8-plus-48.png) no-repeat 5px 50%;
+			padding: 10px 12px 10px 50px;
+			color: white;
+			border-radius: 1px;
+			box-shadow:1px 2px 2px rgb(0,0,0,0,23);
+			border: 1px black solid;
+		}
+		.active {
+			background: #3883cc url(image/icons8-minus-48.png) no-repeat 5px 50%;
+		}
+		.noi-dung{
+			background-color: #8bc34a;
+			padding: 10px 12px;
+			border: 1px #212121 solid;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="content">
+			<div class="jquery-accordion">
+				<p style="font-family: Ink Free; font-size: 40px ; color: white;">Akordeon <span style="font-size: 20px;color: #8bc34a">Vector PSD</span></p>
+				<p style="color: white; margin: 0px 0px 10px 0px">_______ A stylo modem accordion</p>
+				<div class="tab1">
+					<h3>This is an expanded panel</h3>
+					<div class="noi-dung">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim voluptates dolor quia saepe ipsum accusantium iusto quibusdam, assumenda, ab minus illum eligendi facere, reiciendis, provident fuga sunt necessitatibus ullam nisi!
+					</div>
+				</div>
+				<div class="tab1">
+					<h3>Second Panel</h3>
+					<div class="noi-dung">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim voluptates dolor quia saepe ipsum accusantium iusto quibusdam, assumenda, ab minus illum eligendi facere, reiciendis, provident fuga sunt necessitatibus ullam nisi!
+					</div>
+				</div>
+				<div class="tab1">
+					<h3>Third Panel</h3>
+					<div class="noi-dung">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim voluptates dolor quia saepe ipsum accusantium iusto quibusdam, assumenda, ab minus illum eligendi facere, reiciendis, provident fuga sunt necessitatibus ullam nisi!
+					</div>
+				</div>
+				<div class="tab1">
+					<h3>Fourth Panel</h3>
+					<div class="noi-dung">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim voluptates dolor quia saepe ipsum accusantium iusto quibusdam, assumenda, ab minus illum eligendi facere, reiciendis, provident fuga sunt necessitatibus ullam nisi!
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.noi-dung').slideUp();
+
+			$('.tab1 h3').on('click',function(event) {
+				event.preventDefault();
+				$('.active').removeClass('active');
+				$(this).addClass('active').next().slideToggle();
+			})
+		});
+	</script>
+	
+</body>
+</html>

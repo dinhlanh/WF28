@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+	<p id="thep">Thẻ p</p>
+	<ul>
+		<li class="mb">Hà Nội</li>
+		<li class="mb">Hải Phòng</li>
+		<li>Nghệ An</li>
+	</ul>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			alert('Hello jquery');
+		});
+		$(document).ready(function(){
+			$('body').css("background","yellow");
+			$('#thep').css("color","orange");
+			$('.mb').css("color","green");
+		});
+	</script>
+</body>
+</html>
