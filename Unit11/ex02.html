@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EX02</title>
+	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+	<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+	<script type="text/javascript" src="js/lightbox.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		.gallery{
+			margin:auto;
+			text-align: center;
+		}
+		.gallery img{
+			transition: 1s;
+			width: 200px;
+			height: 200px;
+			padding: 5px;
+			border-radius: 12px;
+		}
+		.gallery img:hover{
+			/*filter: grayscale(100%);*/
+			transform: scale(1.1);
+		}
+		p{
+			font-size: 35px;
+			color: orange;
+			margin: 0px 0px 0px 0px;
+		}
+		.a1{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="gallery">
+		<p>Abum ảnh đẹp</p>
+		<a class="a1" href="image/jhjkbmnjh.jpg" data-lightbox="African animals" data-title="Ảnh đẹp" rel="lightbox"><img src="image/jhjkbmnjh.jpg"></a>
+		<a href="image/37024011_2202272370008491_477890810478592000_n.jpg" data-lightbox="African animals" data-title="Ảnh đẹp2"><img src="image/37024011_2202272370008491_477890810478592000_n.jpg"></a>
+		<a href="image/35166844_445958882532370_2914551084645089280_n.jpg" data-lightbox="African animals" data-title="Ảnh đẹp3"><img src="image/35166844_445958882532370_2914551084645089280_n.jpg"></a>
+		<a href="image/41931842_1981565142143286_8570989212084469760_n.png" data-lightbox="African animals" data-title="Ảnh đẹp4"><img src="image/41931842_1981565142143286_8570989212084469760_n.png"></a>
+		<a href="image/46318027_1142170832603120_7918718039283990528_n.jpg" data-lightbox="African animals" data-title="Ảnh đẹp5"><img src="image/46318027_1142170832603120_7918718039283990528_n.jpg"></a>
+	</div>
+		<!-- <script type="text/javascript">
+			$(document).ready(function(){
+				$('.gallery a').lightbox();
+			});
+		</script> -->
+	<script src="path/to/lightbox.js"></script>
+</body>
+</html>

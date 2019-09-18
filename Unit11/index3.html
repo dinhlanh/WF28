@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>index3</title>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+
+</head>
+<body>
+	<div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam explicabo reprehenderit id excepturi, alias molestias aspernatur obcaecati placeat molestiae quae officia ab quod dolorum iure, impedit voluptatum ipsa dignissimos at.</p>
+	</div>
+	<div class="change">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam explicabo reprehenderit id excepturi, alias molestias aspernatur obcaecati placeat molestiae quae officia ab quod dolorum iure, impedit voluptatum ipsa dignissimos at.</p>
+	</div>
+	<div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam explicabo reprehenderit id excepturi, alias molestias aspernatur obcaecati placeat molestiae quae officia ab quod dolorum iure, impedit voluptatum ipsa dignissimos at.</p>
+	</div>
+	<div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam explicabo reprehenderit id excepturi, alias molestias aspernatur obcaecati placeat molestiae quae officia ab quod dolorum iure, impedit voluptatum ipsa dignissimos at.</p>
+	</div>
+	<script type="text/javascript">
+		$(function(){
+			$('div').first().css('background','yellow');
+			$('div').last().css('background','#8888');
+			$('div').eq(2).css('background','orange');
+			$('div').filter('.change').css('background','gold');
+			// $('div').not('.change').css('background','green');
+
+		})
+	</script>
+</body>
+</html>
