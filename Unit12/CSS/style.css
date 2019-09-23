@@ -1,0 +1,130 @@
+.navbar {
+	background: rgba(82,64,120,0.9) !important;
+	color: red;
+}
+.p1{
+	width: 100%;
+	margin: auto;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	float: right;
+	font-weight: bold;
+}
+.p2{
+	width: 100%;
+	margin: auto;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	float: right;
+	font-weight: bold;
+}
+.sp1{
+	width: 20px;
+	text-align: center;
+	color: orange;
+	font-size: 50px;
+	bottom: 40px;
+	position: relative;
+}
+.welcome{
+	background-color: #ff1100c4;
+}
+}
+.col-4{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+.banner{
+	background-color: black;
+}
+.btn-secondary{
+	padding-top: 20px;
+}
+
+
+@media screen (max-width: 992px){
+	.p1{
+		width: 100%;
+		margin: auto;
+		color: white;
+		font-size: 20px;
+		text-align: center;
+		float: right;
+		font-weight: bold;
+	}
+	.p2{
+		width: 100%;
+		margin: auto;
+		color: white;
+		font-size: 30px;
+		text-align: center;
+		float: right;
+		font-weight: bold;
+	}
+	.sp1{
+		width: 20px;
+		text-align: center;
+		color: orange;
+		font-size: 50px;
+		bottom: 40px;
+		position: relative;
+	}
+}
+@media screen (max-width: 768px){
+	.p1{
+		width: 100%;
+		margin: auto;
+		color: white;
+		font-size: 30px;
+		text-align: center;
+		float: right;
+		font-weight: bold;
+	}
+	.p2{
+		width: 100%;
+		margin: auto;
+		color: white;
+		font-size: 30px;
+		text-align: center;
+		float: right;
+		font-weight: bold;
+	}
+	.sp1{
+		width: 20px;
+		text-align: center;
+		color: orange;
+		font-size: 30px;
+		bottom: 40px;
+		position: relative;
+	}
+}
+@media screen (max-width: 576px){
+	.p1{
+		width: 100%;
+		margin: auto;
+		color: white;
+		font-size: 16px;
+		text-align: center;
+		float: right;
+		font-weight: ;
+	}
+	.p2{
+		width: 100%;
+		margin: auto;
+		color: white;
+		font-size: 16px;
+		text-align: center;
+		float: right;
+		font-weight: ;
+	}
+	.sp1{
+		width: 20px;
+		text-align: center;
+		color: orange;
+		font-size: 16px;
+		bottom: 40px;
+		position: relative;
+	}
+}

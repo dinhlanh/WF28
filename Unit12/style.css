@@ -1,0 +1,85 @@
+body,html{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+.menu{
+	font-size: 20px;
+	right:40px;
+	font-weight: bold;
+	color: #3e3b3b88;
+	padding-right: 50px;
+}
+.div1{
+	background-image: url(img/img_unit13_resposive/bg-masthead.jpg);
+	width: 100%;
+	height: 500px;
+}
+.div2{
+	width: 100%;
+	height: 400px;
+	background-color: #ff1100c4;
+}
+.div3{
+	width: 80%;
+	height: 180px;
+	margin: auto;
+}
+.height{
+	height: 250px;
+	text-align: center;
+}
+
+.m1{
+	padding: 20px 0px;
+	float: right;
+	font-weight: bold;
+}
+.banner{
+	width: 100%;
+	height: 250px;
+	background-color: black;
+	margin: auto;
+	text-align: center;
+}
+.banner2{
+	width: 100%;
+	height: 300px;
+}
+.banner3{
+	width: 100%;
+	height: 150px;
+	text-align: center;
+}
+.center{
+	width: 100%;
+	height: 450px;
+}
+.center1{
+	width: 100%;
+	height: 300px;
+}
+.center3{
+	margin: auto;
+	text-align: center;
+}
+.total{
+	width: 100%;
+	height: 250px;
+}
+.total2{
+	text-align: center;
+	margin: auto;
+}
+.icon{
+	font-size: 50px;
+	text-align: center;
+	color: #ff1100c4;
+}
+.ic{
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+.img{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
